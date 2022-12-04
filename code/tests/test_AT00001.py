@@ -6,7 +6,7 @@ import importlib.util
 
 '''
 Date: 04/12/22
-Tester Name: Ivan Ivanov
+Tester Name: Example Test
 Ticket: РТ10001
 Short Description: Check that user can open the main page of the website.
 Component: PT0000
