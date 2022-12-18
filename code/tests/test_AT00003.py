@@ -14,7 +14,7 @@ Component: PT0000
 def test_AT00003():
     # passing the file name and path as argument
     spec = importlib.util.spec_from_file_location(
-  "page_class", "C:/Users/Андрей/Desktop/Код/Python-online-QA-Automation/code/framework/page_class.py")
+  "page_class", "Ваш путь до - page_class.py")
     page_cls = importlib.util.module_from_spec(spec) 
     spec.loader.exec_module(page_cls)
     website = page_cls.PageObject()
