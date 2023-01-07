@@ -9,7 +9,7 @@ class PageObject:
     def __init__(self):
         self.options = Options()
         self.options.binary_location = r"C:/Program Files/Mozilla Firefox/firefox.exe"
-        self.browser = webdriver.Firefox(executable_path=r'C:/Users/Андрей/Desktop/Код/Python-online-QA-Automation/code/framework/geckodriver.exe',
+        self.browser = webdriver.Firefox(executable_path=r'ВАШ ПУТЬ К ФАЙРФОКСУ',
                                          options=self.options)
         self.browser.get("https://5element-dnepr.promobud.ua/")
     
